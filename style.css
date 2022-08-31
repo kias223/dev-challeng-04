@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 5px;
+}
+
+body {
+    margin-left: 10%;
+}
+
+header {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.text01 {
+    margin-left: 1%;
+    font-size: 10em;
+}
+
+.text02 {
+    margin-left: 3%;
+    font-size: 4.5em;
+    width: 65%;
+    font-style: italic;
+    color: #4F4F4F;
+}
+
+img {
+    margin-top: 30px;
+    width: 90%;
+}
+
+.container01 {
+    display: grid;
+    grid-template-columns: 70% 20%;
+    grid-gap: 5%;
+}
+
+.text03 {
+    font-size: 8em;
+    margin: 55px 0px;
+}
+
+.text04 {
+    font-size: 6em;
+    font-style: italic;
+    font-weight: 200;
+    margin: 40px 0px;
+}
+
+.content01 {
+    margin: 15px 0px;
+    display: flex;
+    gap: 20px;
+    font-size: 5em;
+}
+
+.content01 div {
+    position: relative;
+    bottom: 4px;
+    width: 5px;
+    height: 5px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.container02 {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    height: 350px;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.content02 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.content02:nth-child(3) {
+    margin-right: 6.5px;
+}
+
+.modify {
+    color: #F2994A;
+}
+
+.content02 i {
+    font-size: 5em;
+}
+
+.content02 p {
+    color: #BDBDBD;
+    font-size: 3em;
+}
+
+.content02 h4 {
+    font-size: 4em;
+}
+
+.content03 {
+    display: flex;
+    gap: 20px;
+    margin: 30px 0px;
+    align-items: baseline;
+}
+
+.content03 div {
+    font-size: 4.5em;
+    background-color: #F2994A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px 15px;
+    position: relative;
+    top: 15px;
+    color: #fff;
+}
+
+.content03 p {
+    font-size: 5em;
+    width: 65%;
+}
+
+.footer01 {
+    font-size: 5em;
+    margin-left: -10%;
+    margin-top: 100px;
+    color: #BDBDBD;
+}
+
+.footer02 {
+    font-size: 5em;
+    text-align: right;
+    margin-right: 20%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 4px;
+    }
+
+    body {
+        margin-left: 5%;
+    }
+
+    header {
+        width: 90%;
+    }
+
+    .text01 {
+        width: 100%;
+    }
+
+    .text02 {
+        width: 90%;
+    }
+
+    img {
+        width: 105%;
+        margin-top: 5px;
+    }
+
+    .text03 {
+        margin: 0;
+    }
+
+    .container01 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 20px;
+    }
+
+    .container02 {
+        top: 25px;
+        height: 150px;
+        flex-direction: row;
+        box-shadow: none;
+        margin: 0;
+        justify-content: flex-start;
+        margin-left: 5%;
+        position: relative;
+    }
+
+    .container02 h4 {
+        width: 120px;
+    }
+
+    .modify {
+        position: absolute;
+        top: 2%;
+    }
+
+
+    .content01 {
+        margin: 10px 0;
+        gap: 15px;
+    }
+
+    .content01 div {
+        width: 5px;
+        height: 5px;
+        padding: 10px;
+    }
+
+    .footer01 {
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+    .footer02 {
+        margin-top: 60px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+    html {
+        font-size: 2.9px;
+    }
+
+    body {
+        margin-left: 5%;
+    }
+
+    header {
+        width: 90%;
+    }
+
+    .text01 {
+        width: 100%;
+    }
+
+    .text02 {
+        width: 90%;
+    }
+
+    img {
+        width: 105%;
+        margin-top: 5px;
+    }
+
+    .text03 {
+        margin: 0;
+    }
+
+    .container01 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 20px;
+    }
+
+    .container02 {
+        top: 15px;
+        height: 150px;
+        flex-direction: row;
+        box-shadow: none;
+        margin: 0;
+        justify-content: flex-start;
+        margin-left: 5%;
+        position: relative;
+    }
+
+    .container02 h4 {
+        width: 100%;
+    }
+
+    .modify {
+        position: absolute;
+        top: 15%;
+    }
+
+
+    .content01 {
+        margin: 10px 0;
+        gap: 15px;
+    }
+
+    .content01 div {
+        width: 5px;
+        height: 5px;
+        padding: 10px;
+    }
+
+    .footer01 {
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+    .footer02 {
+        margin-top: 60px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+}
